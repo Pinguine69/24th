@@ -1,0 +1,16 @@
+{
+  "name": "cmcsite",
+  "version": "1.0.0",
+  "main": "sw.js",
+  "scripts": {
+    "dev": "browser-sync start --server --files 'index.html css/*.css js/*.js assets/**/* *.html' --startPath index.html --no-notify --open 'local'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "browser-sync": "^3.0.4"
+  }
+}
